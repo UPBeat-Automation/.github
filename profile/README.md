@@ -22,7 +22,7 @@ sudo apt install ser2net
 2. As root, using a text editor, modify the /etc/ser2net.yaml.
    The IP address should be the IP of the device that is running Ser2Net and port in the example below is set to 4999, but you can configure a different port. Additionally, the Powerline Interface Module (PIM) will need to be connected to the Linux device. You will need to make sure that the correct /dev/tty* is used in your configuration file. 
 
-#### Raspberry Pi example with USB to Serial adapter.
+#### Raspberry Pi example with USB to Serial adapter:
 ```yaml
 connection: &UPBPIM
     # Change the IP (192.168.1.5) to the current system IP and port (4999) can remain the same or be changed
@@ -35,3 +35,21 @@ connection: &UPBPIM
               /dev/ttyUSB0, # The device needs to match where the PIM is attached. 
               4800n81,local
 ```
+
+### Limitations
+
+The UPBeat UI is able to store ane parse the complete UPE file, however; some device types are not currently supported, please see the list below for more information: 
+
+- 0 = Other (Unsupported)
+- 1 = Keypad (Unsupported)
+- 2 = Switch (On/Off/Dim)
+- 3 = Module (On/Off/Dim)
+- 4 = Input Module (Unsupported)
+- 5 = Input-Output Module (Unsupported)
+- 6 = VPM (Unsupported)
+- 7 = VHC (Unsupported)
+- 8 = Thermostat (Unsupported)
+- 9 = XPW (Unsupported)
+- 10 = RFI (Unsupported)
+
+We hope to grow device support with the help of the community and other developers. 
