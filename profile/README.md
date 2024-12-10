@@ -4,7 +4,7 @@ The Universal Powerline Bus (UPB) is a communication protocol used for home auto
 
 Connecting your existing UPB investment allows you to benefit from modern features like Google Assistant, Apple HomeKit, and Amazon Alexa.
 
-### Comming Soon
+### Coming Soon
 
 The client code, drivers, and documentation will be released soon. Feel free to reach out in the meantime. 
 
