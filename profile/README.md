@@ -25,7 +25,8 @@ sudo apt install ser2net
 #### Raspberry Pi example with USB to Serial adapter.
 ```yaml
 connection: &UPBPIM
-    accepter: tcp,192.168.1.5,4999 # Change the IP (192.168.1.5) to the current system IP and port (4999) can remain the same or be changed
+    # Change the IP (192.168.1.5) to the current system IP and port (4999) can remain the same or be changed
+    accepter: tcp,192.168.1.5,4999 
     enable: on
     options:
       kickolduser: true
