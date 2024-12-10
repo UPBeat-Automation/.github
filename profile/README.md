@@ -4,6 +4,10 @@ The Universal Powerline Bus (UPB) is a communication protocol used for home auto
 
 Connecting your existing UPB investment allows you to benefit from modern features like Google Assistant, Apple HomeKit, and Amazon Alexa.
 
+### Comming Soon
+
+The client code, drivers, and documentation will be released soon. Feel free to reach out in the meantime. 
+
 ### Requirements
 
 1. Hubitat Elevation® Model C-7 or C-8 controller [Click here to purchase for Hubitat Elevation](https://hubitat.com)
