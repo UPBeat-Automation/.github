@@ -11,8 +11,8 @@ The client code, drivers, and documentation will be released soon. Feel free to 
 ### Requirements
 
 1. Hubitat Elevation® Model C-7 or C-8 controller [Click here to purchase for Hubitat Elevation](https://hubitat.com)
-2. Pulseworx PIM-R Powerline Interface Module RS232 [Click here to purchase PIM-R](https://pcswebstore.com/products/pulseworx-powerline-interface-module-rs232)
-3. GridConnect Serial to Ethernet adapter or Linux device running net2ser. [Click here to purchase GridConnect GC-ND-POE-DTE Male](https://www.gridconnect.com/products/netdirect-serial-to-power-over-ethernet-poe-cable).
+2. Pulseworx PIM-U Powerline Interface Module [Click here to purchase PIM-U](https://pcswebstore.com/products/pulseworx-powerline-interface-module-usb)
+3. Linux device running net2ser eg. Raspbery Pi.
    - Be sure to buy the Male adapter as this can plug directly into the PIM.
 5. Download the UPBeat UI
 6. Download the UPBeat Hubitat Drivers
