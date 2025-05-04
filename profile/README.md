@@ -13,9 +13,8 @@ The client code, drivers, and documentation will be released soon. Feel free to 
 1. Hubitat Elevation® Model C-7 or C-8 controller [Click here to purchase for Hubitat Elevation](https://hubitat.com)
 2. Pulseworx PIM-U Powerline Interface Module [Click here to purchase PIM-U](https://pcswebstore.com/products/pulseworx-powerline-interface-module-usb)
 3. Linux device running net2ser eg. Raspbery Pi.
-   - Be sure to buy the Male adapter as this can plug directly into the PIM.
-5. Download the UPBeat UI
-6. Download the UPBeat Hubitat Drivers
+4. Download the UPBeat UI
+5. Download the UPBeat Hubitat Drivers
    
 ### Installing Ser2Net for Ubuntu / Raspberry Pi
 
