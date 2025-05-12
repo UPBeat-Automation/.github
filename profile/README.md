@@ -12,24 +12,24 @@ The client code, drivers, and documentation will be released soon. Feel free to 
 
 1. Hubitat Elevation® Model C-7 or C-8 controller [Click here to purchase for Hubitat Elevation](https://hubitat.com)
 2. Pulseworx PIM-U Powerline Interface Module [Click here to purchase PIM-U](https://pcswebstore.com/products/pulseworx-powerline-interface-module-usb)
-3. Linux device running net2ser eg. Raspbery Pi
+3. Linux device running net2ser eg. Raspbery Pi [Click here to purchase Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-5)
 4. Download the UPBeat UI (Optional) - Still in development
 5. Download the UPBeat Hubitat Drivers
-   
+
 ### Installing Ser2Net for Ubuntu / Raspberry Pi
 
-1. Use apt to install Ser2Net, you should be able to cut and paste the following commands:
+1. Raspbian (Raspberry Pi OS Lite) [Installing Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+2. Once installed, use apt to install Ser2Net, you should be able to cut and paste the following commands:
 
 ```bash
 sudo apt update
 sudo apt install ser2net
 ```
 
+3. As root, using a text editor, modify the /etc/ser2net.yaml.
+   The IP address should be the IP of the device that is running Ser2Net and port in the example below is set to 4999, but you can configure a different port. Additionally, the Powerline Interface Module (PIM) will need to be connected to the Linux device. 
 
-2. As root, using a text editor, modify the /etc/ser2net.yaml.
-   The IP address should be the IP of the device that is running Ser2Net and port in the example below is set to 4999, but you can configure a different port. Additionally, the Powerline Interface Module (PIM) will need to be connected to the Linux device. You will need to make sure that the correct /dev/tty* is used in your configuration file. 
-
-#### Raspberry Pi example with USB to Serial adapter:
+#### Raspberry Pi example with Pulseworx PIM-U Powerline Interface Module:
 ```yaml
 connection: &UPBPIM
     # Change the IP (192.168.1.5) to the current system IP and port (4999) can remain the same or be changed
@@ -42,6 +42,20 @@ connection: &UPBPIM
               /dev/ttyUSB0, # The device needs to match where the PIM is attached. 
               4800n81,local
 ```
+
+4. Once you have saved the changes to the /etc/ser2net.yaml file you will need to restart the ser2net service. Using the following commands.
+```
+sudo service ser2net stop
+sudo service ser2net start
+```
+
+5. Check the service status using `sudo service ser2net status` you should see somthing like shown below.
+   
+![image](https://github.com/user-attachments/assets/11b53c26-bd45-491b-8afd-17a4e26dad7a)
+
+#### Installing Hubitat Drivers
+
+1. Download the drivers bundle.
 
 ### Limitations
 
