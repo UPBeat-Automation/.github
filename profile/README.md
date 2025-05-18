@@ -4,12 +4,20 @@ The Universal Powerline Bus (UPB) is a communication protocol used for home auto
 
 Connecting your existing UPB investment allows you to benefit from modern features like Google Assistant, Apple HomeKit, and Amazon Alexa.
 
-## Requirements
+## Minimum Requirements
 
 1. Hubitat Elevation® Model C-7 or C-8 controller [Click here to purchase for Hubitat Elevation](https://hubitat.com)
 2. Pulseworx PIM-U Powerline Interface Module [Click here to purchase PIM-U](https://pcswebstore.com/products/pulseworx-powerline-interface-module-usb)
 3. Linux device running net2ser eg. Raspbery Pi [Click here to purchase Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-5)
 4. Download the UPBeat Hubitat Drivers [Click here to download driver bundle](https://github.com/UPBeat-Automation/UPBeat-Hubitat/releases)
+
+## Recommended Setup for Power Over Ethernet (POE)
+1. Hubitat Elevation® Model C-7 or C-8 controller [Click here to purchase for Hubitat Elevation](https://hubitat.com)
+2. POE micro USB Adapter for Model C-7 [Click here to purchase micro USB POE adapter](https://www.amazon.com/dp/B01MDLUSE7) 
+3. Pulseworx PIM-U Powerline Interface Module [Click here to purchase PIM-U](https://pcswebstore.com/products/pulseworx-powerline-interface-module-usb)
+4. Linux device running net2ser eg. Raspbery Pi [Click here to purchase Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-5)
+5. Raspberry Pi POE Hat [Click here to purchase Raspberry Pi POE Hat](https://www.amazon.com/dp/B0D7SDGXKL)
+6. Download the UPBeat Hubitat Drivers [Click here to download driver bundle](https://github.com/UPBeat-Automation/UPBeat-Hubitat/releases)
 
 ## Installing Ser2Net for Ubuntu / Raspberry Pi
 
