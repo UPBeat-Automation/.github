@@ -120,8 +120,12 @@ sudo service ser2net start
    ![image](https://github.com/user-attachments/assets/090cdd8b-d502-40a3-93aa-dbb08c3f0b51)
 
 6. You should now be able to control your device.
-   
-### Limitations
+
+## Coming Soon
+
+There are plans to allow you to import UPStart Export Files (UPE) to perform an automated import of your entire UPB network directly.  
+
+## Limitations
 
 The UPBeat UI is able to store ane parse the complete UPE file, however; some device types are not currently supported, please see the list below for more information: 
 
