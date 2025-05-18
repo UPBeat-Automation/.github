@@ -52,6 +52,20 @@ sudo service ser2net start
 #### Installing Hubitat Drivers
 
 1. Download the drivers bundle from [releases](https://github.com/UPBeat-Automation/UPBeat-Hubitat/releases)
+   ![image](https://github.com/user-attachments/assets/97423b7e-5bc6-474e-8ad6-54f60a3c5d81)
+
+3. Navigate to your Hubitat Controller's web interface and go to the "FOR DEVELOPERS" --> Bundles
+   
+   ![image](https://github.com/user-attachments/assets/c1379932-5205-41d8-a437-0c6e5c2b718f)
+4. Import the "UPBeatUniversalPowerlineBusIntegration.zip" into your Hubitat controller
+   
+   ![image](https://github.com/user-attachments/assets/b5b64246-5db8-4f22-b683-33d23e6fbc83)
+
+5. Once the import is completed, you should see the following.
+
+   ![image](https://github.com/user-attachments/assets/e33a10c9-53ac-45b8-ba49-7cd0134667ff)
+
+
 
 ### Limitations
 
