@@ -55,7 +55,7 @@ sudo service ser2net start
 
 #### Installing Hubitat Drivers
 
-1. Download the drivers bundle.
+1. Download the drivers bundle from [releases](https://github.com/UPBeat-Automation/UPBeat-Hubitat/releases)
 
 ### Limitations
 
