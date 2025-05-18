@@ -51,7 +51,7 @@ sudo service ser2net start
 
 5. Check the service status using `sudo service ser2net status` you should see somthing like shown below.
    
-![image](https://github.com/user-attachments/assets/11b53c26-bd45-491b-8afd-17a4e26dad7a)
+![image](https://github.com/user-attachments/assets/089a4e92-1e42-4d09-9b16-2b4ff1081f9a)
 
 #### Installing Hubitat Drivers
 
