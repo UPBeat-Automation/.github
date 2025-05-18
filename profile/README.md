@@ -16,8 +16,9 @@ Connecting your existing UPB investment allows you to benefit from modern featur
 2. POE micro USB Adapter for Model C-7 [Click here to purchase micro USB POE adapter](https://www.amazon.com/dp/B01MDLUSE7) 
 3. Pulseworx PIM-U Powerline Interface Module [Click here to purchase PIM-U](https://pcswebstore.com/products/pulseworx-powerline-interface-module-usb)
 4. Linux device running net2ser eg. Raspbery Pi [Click here to purchase Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-5)
-5. Raspberry Pi POE Hat [Click here to purchase Raspberry Pi POE Hat](https://www.amazon.com/dp/B0D7SDGXKL)
-6. Download the UPBeat Hubitat Drivers [Click here to download driver bundle](https://github.com/UPBeat-Automation/UPBeat-Hubitat/releases)
+5. Rapberry Pi Case [Click here to buy official Pi 5 case](https://www.digikey.com/en/products/detail/raspberry-pi/SC1160/21658256)
+6. Raspberry Pi POE Hat [Click here to purchase Raspberry Pi POE Hat](https://www.amazon.com/dp/B0D7SDGXKL)
+7. Download the UPBeat Hubitat Drivers [Click here to download driver bundle](https://github.com/UPBeat-Automation/UPBeat-Hubitat/releases)
 
 ## Installing Ser2Net for Ubuntu / Raspberry Pi
 
