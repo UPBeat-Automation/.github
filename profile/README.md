@@ -4,17 +4,13 @@ The Universal Powerline Bus (UPB) is a communication protocol used for home auto
 
 Connecting your existing UPB investment allows you to benefit from modern features like Google Assistant, Apple HomeKit, and Amazon Alexa.
 
-### Coming Soon
-
-The client code, drivers, and documentation will be released soon. Feel free to reach out in the meantime. 
-
 ### Requirements
 
 1. Hubitat Elevation® Model C-7 or C-8 controller [Click here to purchase for Hubitat Elevation](https://hubitat.com)
 2. Pulseworx PIM-U Powerline Interface Module [Click here to purchase PIM-U](https://pcswebstore.com/products/pulseworx-powerline-interface-module-usb)
 3. Linux device running net2ser eg. Raspbery Pi [Click here to purchase Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-5)
 4. Download the UPBeat UI (Optional) - Still in development
-5. Download the UPBeat Hubitat Drivers
+5. Download the UPBeat Hubitat Drivers [Click here to download driver bundle](https://github.com/UPBeat-Automation/UPBeat-Hubitat/releases)
 
 ### Installing Ser2Net for Ubuntu / Raspberry Pi
 
