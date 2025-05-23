@@ -146,7 +146,7 @@ sudo service ser2net start
 
 ## Limitations
 
-The UPBeat UI is able to store ane parse the complete UPE file, however; some device types are not currently supported, please see the list below for more information: 
+The UPBeat UI is able to parse the complete UPE file, however; some device types are not currently supported, please see the list below for more information: 
 
 - 0 = Other (Unsupported)
 - 1 = Keypad (Unsupported)
