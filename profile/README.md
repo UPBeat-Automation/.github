@@ -103,7 +103,7 @@ sudo service ser2net start
 
    It's completely normal and comes from the socket driver when no data arrives in a minute.
 
-## Adding devices
+## Adding devices manually
 1. Navigate to your Hubitat Controller's web interface and go to the Apps section. Click on UPBeat App.
    ![image](https://github.com/user-attachments/assets/a04d3372-6881-4f40-b862-af7f0c6e2378)
 
@@ -121,9 +121,24 @@ sudo service ser2net start
 
 6. You should now be able to control your device.
 
-## Coming Soon
+## Adding devices via UpStart UPE import
 
-There are plans to allow you to import UPStart Export Files (UPE) to perform an automated import of your entire UPB network directly.  
+1. Navigate to your Hubitat Controller's web interface and go to the Apps section. Click on UPBeat App.
+   
+   ![image](https://github.com/user-attachments/assets/5648441b-e07f-4999-bb47-386d4efd4581)
+
+2. Select Bulk Import and paste UPE file contents. Then click Next.
+
+   ![image](https://github.com/user-attachments/assets/9b0089fe-680c-40d0-b4c1-556fe02a78d2)
+
+   Review th import results
+
+   ![image](https://github.com/user-attachments/assets/6ba492c0-0c04-4865-8f7e-fce7e7641d03)
+
+   You are ready to go... 🥇
+
+   ![image](https://github.com/user-attachments/assets/616afa43-5e8e-46a7-98ed-12c7ac099878)
+
 
 ## Limitations
 
