@@ -131,7 +131,7 @@ sudo service ser2net start
 
    ![image](https://github.com/user-attachments/assets/9b0089fe-680c-40d0-b4c1-556fe02a78d2)
 
-   Review th import results
+   Review the import results, and click Next. 
 
    ![image](https://github.com/user-attachments/assets/6ba492c0-0c04-4865-8f7e-fce7e7641d03)
 
