@@ -64,39 +64,42 @@ sudo service ser2net start
 
 3. Navigate to your Hubitat Controller's web interface and go to the "FOR DEVELOPERS" --> Bundles
    
-   ![image](https://github.com/user-attachments/assets/c1379932-5205-41d8-a437-0c6e5c2b718f)
+   ![image](https://github.com/user-attachments/assets/0f0db16c-ba8c-4802-bbbd-605646350e8f)
+
 4. Import the "UPBeatUniversalPowerlineBusIntegration.zip" into your Hubitat controller.
    
-   ![image](https://github.com/user-attachments/assets/b5b64246-5db8-4f22-b683-33d23e6fbc83)
+   ![image](https://github.com/user-attachments/assets/f1116aab-b6de-4126-a921-10dc458247e7)
 
 5. Once the import is completed, you should see the following.
 
-   ![image](https://github.com/user-attachments/assets/e33a10c9-53ac-45b8-ba49-7cd0134667ff)
+   ![image](https://github.com/user-attachments/assets/9ad2b6ce-b4f6-4d27-a4df-9506e79a635a)
 
 ## Configuring the UPBeat App
 
 1. Navigate to your Hubitat Controller's web interface and go to the Apps section.
 
-   ![image](https://github.com/user-attachments/assets/12be96d6-4bce-4c85-94cb-2782b714fbaa)
+   ![image](https://github.com/user-attachments/assets/4607aab7-8a7c-4c2b-80e6-3e90ade1644b)
 
 2. Click "Add user app" and click UPBeat App.
 
-   ![image](https://github.com/user-attachments/assets/d4b3d667-6f3c-4b8b-b22c-8504ab097446)
+   ![image](https://github.com/user-attachments/assets/c93fa1b9-cb70-4060-a079-eb664cf13bb8)
 
 3. Click "Done" on the app page.
 
-   ![image](https://github.com/user-attachments/assets/6dfefaac-6689-49dc-af4e-30dca42ec943)
+   ![image](https://github.com/user-attachments/assets/a786a892-39d6-4388-9ab6-6a98eba5fe60)
 
 ## Configuring the UPBeat Powerline Interface Module
 1. Navigate to your Hubitat Controller's web interface and go to the Devices section.
    
-   ![image](https://github.com/user-attachments/assets/763b28e0-800b-471c-afca-32840cbc95d0)
+   ![image](https://github.com/user-attachments/assets/7b580f05-8354-4fbf-b701-83d580ddf783)
+
 3. Edit the UPB Powerline Interface Module device, goto the Preferences tab. Set the IP and port of your ser2net device from earlier.
    
-   ![image](https://github.com/user-attachments/assets/cc3204af-451b-4642-b326-435f26a4a680)
+   ![image](https://github.com/user-attachments/assets/023a1565-d57e-41cb-838f-446cedd8d1a3)
+
 5. Save, the setting and go to the Commands tab. You should see the following.
    
-   ![image](https://github.com/user-attachments/assets/450e4221-dc2d-480b-9560-adf6cdf72cb5)
+   ![image](https://github.com/user-attachments/assets/7894b0e6-d81d-4eb8-9c63-e49db8488709)
 
    The PIM driver is a raw socket driver, sometimes you will see the following status.  
    ![image](https://github.com/user-attachments/assets/2329c3b1-9a1f-4628-8af3-ff6b43fb8c5c)
@@ -110,15 +113,15 @@ sudo service ser2net start
 
 3. Click on the "Manually Add Device", select a device type. as shown below.
 
-   ![image](https://github.com/user-attachments/assets/ee80ec92-e007-4c93-8d0b-dd6d60421cac)
+   ![image](https://github.com/user-attachments/assets/42aa46ee-807f-4030-a5a1-c58cf10b56f7)
 
 4. Set the Name, Voice Name, UPB Network Id, and UPB Device Id, click Next.
 
-   ![image](https://github.com/user-attachments/assets/536bd691-28e7-45c4-a5b8-119d39667865)
+   ![image](https://github.com/user-attachments/assets/0721d3a0-90fa-4f5b-8d31-813755452313)
 
 5. Click the Go to Device Page button.
 
-   ![image](https://github.com/user-attachments/assets/090cdd8b-d502-40a3-93aa-dbb08c3f0b51)
+   ![image](https://github.com/user-attachments/assets/89e40ae4-7950-4861-9087-8160c1b4c897)
 
 6. You should now be able to control your device.
 
@@ -126,7 +129,7 @@ sudo service ser2net start
 
 1. Navigate to your Hubitat Controller's web interface and go to the Apps section. Click on UPBeat App.
    
-   ![image](https://github.com/user-attachments/assets/5648441b-e07f-4999-bb47-386d4efd4581)
+   ![image](https://github.com/user-attachments/assets/b7f712b3-b726-4d3f-9f91-9e2f3d58149b)
 
 2. Select Bulk Import and paste UPE file contents. Then click Next.
 
