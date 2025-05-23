@@ -105,7 +105,8 @@ sudo service ser2net start
 
 ## Adding devices manually
 1. Navigate to your Hubitat Controller's web interface and go to the Apps section. Click on UPBeat App.
-   ![image](https://github.com/user-attachments/assets/a04d3372-6881-4f40-b862-af7f0c6e2378)
+   
+   ![image](https://github.com/user-attachments/assets/b7f712b3-b726-4d3f-9f91-9e2f3d58149b)
 
 3. Click on the "Manually Add Device", select a device type. as shown below.
 
