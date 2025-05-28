@@ -86,7 +86,7 @@ sudo service ser2net start
 
 3. Click "Done" on the app page.
 
-   ![image](https://github.com/user-attachments/assets/a786a892-39d6-4388-9ab6-6a98eba5fe60)
+   ![image](https://github.com/user-attachments/assets/5614d0ee-26e9-46af-9105-9a03f61df6fe)
 
 ## Configuring the UPBeat Powerline Interface Module
 1. Navigate to your Hubitat Controller's web interface and go to the Devices section.
@@ -109,7 +109,7 @@ sudo service ser2net start
 ## Adding devices manually
 1. Navigate to your Hubitat Controller's web interface and go to the Apps section. Click on UPBeat App.
    
-   ![image](https://github.com/user-attachments/assets/b7f712b3-b726-4d3f-9f91-9e2f3d58149b)
+   ![image](https://github.com/user-attachments/assets/c443e427-3bda-4a55-b13e-88fa6db475bc)
 
 3. Click on the "Manually Add Device", select a device type. as shown below.
 
@@ -129,7 +129,7 @@ sudo service ser2net start
 
 1. Navigate to your Hubitat Controller's web interface and go to the Apps section. Click on UPBeat App.
    
-   ![image](https://github.com/user-attachments/assets/b7f712b3-b726-4d3f-9f91-9e2f3d58149b)
+   ![image](https://github.com/user-attachments/assets/c443e427-3bda-4a55-b13e-88fa6db475bc)
 
 2. Select Bulk Import and paste UPE file contents. Then click Next.
 
