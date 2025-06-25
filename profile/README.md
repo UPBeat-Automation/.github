@@ -150,8 +150,8 @@ The UPBeat UI is able to parse the complete UPE file, however; some device types
 
 - 0 = Other (Unsupported)
 - 1 = Keypad (Unsupported)
-- 2 = Switch (On/Off/Dim)
-- 3 = Module (On/Off/Dim)
+- 2 = Switch (On/Off/Dim/Status)
+- 3 = Module (On/Off/Dim/Status)
 - 4 = Input Module (Unsupported)
 - 5 = Input-Output Module (Unsupported)
 - 6 = VPM (Unsupported)
