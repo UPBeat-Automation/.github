@@ -148,8 +148,10 @@ sudo service ser2net start
 
 The UPBeat UI is able to parse the complete UPE file, however; some device types are not currently supported, please see the list below for more information: 
 
+**Note: Any devices which trigger scenes will be propagated to show the correct device states**
+
 - 0 = Other (Unsupported)
-- 1 = Keypad (Unsupported)
+- 1 = Keypad (Partial) - Keypads scene triggers will be propagated to show the correct device states.
 - 2 = Switch (On/Off/Dim/Status)
 - 3 = Module (On/Off/Dim/Status)
 - 4 = Input Module (Unsupported)
