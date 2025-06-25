@@ -148,7 +148,7 @@ sudo service ser2net start
 
 The UPBeat UI is able to parse the complete UPE file, however; some device types are not currently supported, please see the list below for more information: 
 
-**Note: Any devices which trigger scenes will be propagated to show the correct device states. Also multi-channel devices are supported currently by creating a device per channel. In the future, parent and child devices may be used to reflect a parant device and child channels.**
+**Note: Any devices which trigger scenes will be propagated to show the correct device states. Also multi-channel devices are supported currently by creating a device per channel. In the future, parent and child devices may be used to reflect a parent device and child channels.**
 
 - 0 = Other (Unsupported)
 - 1 = Keypad (Partial) - Keypads scene triggers will be propagated to show the correct device states.
