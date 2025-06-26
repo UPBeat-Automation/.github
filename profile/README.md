@@ -30,20 +30,30 @@ sudo apt update
 sudo apt install ser2net
 ```
 
-3. As root, using a text editor, modify the /etc/ser2net.yaml.
-   The IP address should be the IP of the device that is running Ser2Net and port in the example below is set to 4999, but you can configure a different port. Additionally, the Powerline Interface Module (PIM) will need to be connected to the Linux device. 
-
+3. As root, using a text editor, modify the /etc/ser2net.yaml. The only entry that is needed in the full file is shown below.
+   
 #### Raspberry Pi example with Pulseworx PIM-U Powerline Interface Module:
 ```yaml
+%YAML 1.1
+---
+# This is a ser2net configuration file, tailored to be rather
+# simple.
+#
+# Find detailed documentation in ser2net.yaml(5)
+# A fully featured configuration file is in
+# /usr/share/doc/ser2net/examples/ser2net.yaml.gz
+#
+# If you find your configuration more useful than this very simple
+# one, please submit it as a bugreport
+
 connection: &UPBPIM
-    # Change the IP (192.168.1.5) to the current system IP and port (4999) can remain the same or be changed
-    accepter: tcp,192.168.1.5,4999 
+    accepter: tcp,4999
     enable: on
     options:
       kickolduser: true
       telnet-brk-on-sync: false
     connector: serialdev,
-              /dev/ttyUSB0, # The device needs to match where the PIM is attached. 
+              /dev/ttyUSB0,
               4800n81,local
 ```
 
