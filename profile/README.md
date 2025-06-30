@@ -1,4 +1,4 @@
-# Universal Powerline Bus + Hubitat Integration
+# Universal Powerline Bus (UPB) + Hubitat Integration
 
 The Universal Powerline Bus (UPB) is a communication protocol used for home automation and building control. It enables devices to communicate over the existing powerline infrastructure, eliminating the need for additional wiring. UPB is a robust, reliable, and scalable technology designed for applications such as lighting control, HVAC management, and appliance integration. Through testing, field trials, and residential installations, UPB has been proven to be greater than 99.9% reliable.
 
