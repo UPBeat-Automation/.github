@@ -155,7 +155,10 @@ sudo service ser2net start
 
 ## Amazon Alexa Integrated Devices
 
-The following section shows a view of the devices from Alexa app.
+The following section shows a view of the devices from Alexa app.  
+
+<img width="1290" height="2796" alt="image" src="https://github.com/user-attachments/assets/f7bd83b4-b855-418b-8cd7-d678fe01bed3" />
+
 
 ## Driver Notes
 
