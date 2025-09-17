@@ -153,6 +153,10 @@ sudo service ser2net start
 
    ![image](https://github.com/user-attachments/assets/616afa43-5e8e-46a7-98ed-12c7ac099878)
 
+## Amazon Alexa Integrated Devices
+
+The following section shows a view of the devices from Alexa app.
+
 ## Driver Notes
 
 The primary drivers needed for most UPB deployments are `UPB Scene Switch`, `UPB Dimming Switch`, and `UPB Non-Dimming Switch` but other experimental drivers exist.
