@@ -9,7 +9,7 @@ We believe you shouldn’t have to rip out working systems or throw away decades
 ---
 
 ## 🎯 Our Focus
-- **UPB + Hubitat integration** → We built [UPBeat-Hubitat](https://github.com/xeren-io/UPBeat-Hubitat), a free integration that lets you keep using your UPB switches and scenes in a modern Hubitat environment.  
+- **Universal Powerline Bus (UPB) + Hubitat integration** → We built [UPBeat-Hubitat](https://github.com/xeren-io/UPBeat-Hubitat), a free integration that lets you keep using your UPB switches and scenes in a modern Hubitat environment.  
 - **Supporting legacy Omni/HAI users** → Exploring ways to bridge old OmniPro setups into today’s modern platforms.  
 - **Community-first** → Xeren is not a company — it’s a community-driven effort to keep UPB alive, reliable, and open.
 
