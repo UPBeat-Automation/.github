@@ -1,5 +1,3 @@
-# Xeren
-
 **Xeren** is an open-source initiative focused on supporting the **Universal Powerline Bus (UPB)** community.  
 
 UPB is still one of the most reliable home automation technologies, but when Leviton discontinued support for Omni/HAI controllers, many users were left stranded.  
